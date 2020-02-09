@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>install on [cmihai@server ~/cmihai-ansible] $</title>
+    <link>https://cmihai-ansible.github.io/blog/tags/install/</link>
+    <description>Recent content in install on [cmihai@server ~/cmihai-ansible] $</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>☁ Ansible in the Cloud ☁</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cmihai-ansible.github.io/blog/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing ansible</title>
+      <link>https://cmihai-ansible.github.io/blog/posts/01.installing/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmihai-ansible.github.io/blog/posts/01.installing/</guid>
+      <description>Setup a virtual env for python python3 -m venv ~/ansible-molecule source ~/ansible molecule/bin/activate pip3 install --upgrade pip   Note: when not using a venv, use the --user flag with pip.
+ Install ansible # Install ansible pip3 install --upgrade ansible # Install lint tools pip3 install --upgrade ansible-lint yamllint # Install test tools pip3 install --upgrade \ &amp;quot;molecule[docker]&amp;quot; &amp;quot;molecule[podman]&amp;quot; \ python-vagrant molecule-libvirt  Installing roles from ansible galaxy ansible-galaxy install devops-toolbox.</description>
+    </item>
+    
+  </channel>
+</rss>

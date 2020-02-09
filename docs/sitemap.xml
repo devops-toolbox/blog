@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/</loc>
+    <lastmod>2019-08-10T09:41:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/about/</loc>
+    <lastmod>2019-08-10T09:41:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/categories/ansible/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/categories/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/posts/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/tags/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/posts/05.goss/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/tags/vim/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/posts/04.molecule/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/posts/03.cookiecutter/</loc>
+    <lastmod>2019-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/posts/02.vim/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/tags/install/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cmihai-ansible.github.io/blog/posts/01.installing/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

@@ -1,0 +1,48 @@
+baseurl = "https://cmihai-ansible.github.io/blog/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 25
+publishDir = "docs"
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "red"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 7
+  # show selector to switch language
+  showLanguageSelector = false
+  # set theme to full screen width
+  fullWidthTheme = false
+  # center theme with default width
+  centerTheme = true
+  # set a custom favicon (default is a `themeColor` square)
+  favicon = "favicon.ico"
+  summaryLength = 10
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "[cmihai@server ~/cmihai-ansible] $"
+    subtitle = "Mihai's Blog"
+    keywords = "redhat csc cloud"
+    copyright = "☁ Ansible in the Cloud ☁"
+    menuMore = "| more"
+    readMore = "--verbose"
+    readOtherPosts = "SEE ALSO"
+
+    [languages.en.params.logo]
+      logoText = "[cmihai@server ~/cmihai-ansible] $"
+      #logoText = "Ansible in the Cloud"
+      logoHomeLink = "/blog/"
+
+      [[languages.en.menu.main]]
+        identifier = "My Blog"
+        name = "Blog"
+        url = "http://blog.boreas.ro"
+
+      [[languages.en.menu.main]]
+      identifier = "About"
+      name = "About"
+      url = "/about"

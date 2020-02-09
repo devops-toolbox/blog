@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on [cmihai@server ~/cmihai-ansible] $</title>
+    <link>https://cmihai-ansible.github.io/blog/tags/vim/</link>
+    <description>Recent content in vim on [cmihai@server ~/cmihai-ansible] $</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>☁ Ansible in the Cloud ☁</copyright>
+    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cmihai-ansible.github.io/blog/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test your roles with goss</title>
+      <link>https://cmihai-ansible.github.io/blog/posts/05.goss/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmihai-ansible.github.io/blog/posts/05.goss/</guid>
+      <description>goss a file /usr/bin/python goss autoadd sshd goss validate  </description>
+    </item>
+    
+    <item>
+      <title>Test your roles with molecule</title>
+      <link>https://cmihai-ansible.github.io/blog/posts/04.molecule/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmihai-ansible.github.io/blog/posts/04.molecule/</guid>
+      <description>Test using the default engine (docker) molecule create molecule converge molecule verify molecule login molecule destroy # or: molecule test  Test on podman: molecule test -s podman  Change the OS: export CONTAINER_COMMAND=&amp;quot;/usr/sbin/init&amp;quot; export CONTAINER_DISTRO=centos export CONTAINER_VERSION=7 molecule --debug test  Using KVM Install the libvirt driver for vagrant:
+sudo yum install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm sudo yum install libvirt-devel ruby-devel gcc export VAGRANT_DEFAULT_PROVIDER=libvirt export VAGRANT_PREFERRED_PROVIDERS=libvirt # Build vagrant-libvirt export CONFIGURE_ARGS=&#39;with-ldflags=-L/opt/vagrant/embedded/lib with-libvirt-include=/usr/include/libvirt with-libvirt-lib=/usr/lib&#39; export GEM_HOME=~/.</description>
+    </item>
+    
+    <item>
+      <title>Get started quickly with cookiecutter templates</title>
+      <link>https://cmihai-ansible.github.io/blog/posts/03.cookiecutter/</link>
+      <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmihai-ansible.github.io/blog/posts/03.cookiecutter/</guid>
+      <description>molecule init template \ --url https://github.com/cmihai-ansible/cookiecutter-role.git \ --role-name myrole  </description>
+    </item>
+    
+    <item>
+      <title>Editing yaml with vim</title>
+      <link>https://cmihai-ansible.github.io/blog/posts/02.vim/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmihai-ansible.github.io/blog/posts/02.vim/</guid>
+      <description> Set up your vimrc: &amp;quot; Load local vimrc from project directory (set this in your main vimrc) &amp;quot; set exrc autocmd FileType yml,yaml setlocal ts=2 sts=2 sw=2 expandtab et ai cuc colorscheme torte &amp;quot; Color column 80 highlight ColorColumn ctermbg=6 guibg=lightblue set colorcolumn=80 &amp;quot; General set cuc # Set cursorcolumn set exrc &amp;quot; Load vimrc from project directory set number &amp;quot; Show line numbers set numberwidth=4 set showmatch &amp;quot; Highlight matching brace set visualbell &amp;quot; Use visual bell (no beeping) set hlsearch &amp;quot; Highlight all search results set smartcase &amp;quot; Enable smart-case search set ignorecase &amp;quot; Always case-insensitive set incsearch &amp;quot; Searches for strings incrementally set autoindent &amp;quot; Auto-indent new lines set expandtab &amp;quot; Use spaces instead of tabs set shiftwidth=2 &amp;quot; Number of auto-indent spaces set smartindent &amp;quot; Enable smart-indent set smarttab &amp;quot; Enable smart-tabs set softtabstop=2 &amp;quot; Number of spaces per Tab &amp;quot;&amp;quot; Advanced set ruler &amp;quot; Show row and column ruler information set undolevels=1000 &amp;quot; Number of undo levels set backspace=indent,eol,start &amp;quot; Backspace behaviour set nowrap  </description>
+    </item>
+    
+  </channel>
+</rss>
